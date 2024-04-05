@@ -16,7 +16,7 @@ long long int powerOfN(long long int n, long long int k, long long int answer) {
     else {
         int i;
         for(i=0; i<k; i++) {
-            answer *= (i+1);
+            answer *= n;
         }
     }
     return answer;
