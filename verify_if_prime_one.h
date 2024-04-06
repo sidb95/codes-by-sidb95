@@ -2,7 +2,7 @@
 sidb95
 bhatoresiddharth@gmail.com
 verify_if_prime_one
-05.04.2024
+06.04.2024
 */
  
 // prime of a whole number
