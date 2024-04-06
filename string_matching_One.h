@@ -5,22 +5,22 @@ string_matching_One
 04.04.2024
 */
 
-int stringMatching(char* strOne, char* strTwo) {
+short int stringMatching(char* strOne, char* strTwo, short int cmpOut) {
     int i = 0;
-    int flag = 1;
+    int cmpOut = 1;
     while(strOne[i] != EOF) {
         if(strOne[i] != strTwo[i]) {
-            flag = 0;
+            cmpOut = 0;
             break;
         }
         i++;
     }
-    if(flag != 0) {
+    if(cmpOut != 0) {
         if(strOne[i] == EOF) {
             if(strTwo[i] == EOF) {
-               flag = 1;
+               cmpOut = 1;
             }
         }
     }
-    return flag;
+    return cmpOut;
 }
