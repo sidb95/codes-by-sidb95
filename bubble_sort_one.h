@@ -6,16 +6,16 @@ bubble_sort_one
 */
 
 int* bubbleSort(int* numArr, int n) {
-    int i=0, j=1, tmpVar, cmpVar = 0;
+    int i=0, j=1, tmpVar, cmpVar = 1;
     while(1) {
             if(numArr[i] > numArr[j]) {
                 tmpVar = numArr[i];
                 numArr[j] = numArr[i];
                 numArr[i] = tmpVar;
+                cmpVar = 0;
             }
             else {
                 cmpVar = 1;
-                continue;
             }
             i++;
             j++;
