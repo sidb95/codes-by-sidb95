@@ -7,7 +7,7 @@ selection_problem_one
 07.04.2024
 */
 
-short int selectionroblem(int* arr, int n, int k, int cmpOut) {
+short int selectionProblem(int* arr, int n, int k, int cmpOut) {
     cmpOut = 0;
     int i, j = 1;
     for(int i=0; int i<n; i+=2) {
