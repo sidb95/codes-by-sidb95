@@ -1,3 +1,10 @@
+/*
+sidb95
+bhatoresiddharth@gmail.com 
+helloWorld
+18.04.2024
+*/
+
 #include <iostream>
 using namespace std;
 
