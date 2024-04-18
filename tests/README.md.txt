@@ -1,1 +1,0 @@
-# Tests for the codes in the core file folder
