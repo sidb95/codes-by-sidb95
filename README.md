@@ -4,5 +4,7 @@ This repository contains code and algorithms that are used for various purposes 
 
 Your faithful friend
 Siddharth Bhatore
+
 bhatoresiddharth@gmail.com
+
 sbhatore95@gmail.com
