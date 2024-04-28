@@ -7,7 +7,7 @@ hello_world
 
 void helloWorld(char* strArr, int n) {
     for(int i=0; i<n; i++) {
-        printf("%c%c%c%c%c", strArr[i]);
+        printf("%c", strArr[i]);
     }
     return;
 }
