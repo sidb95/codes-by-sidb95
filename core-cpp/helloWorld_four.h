@@ -30,7 +30,7 @@ public:
 class Main::Solution {
 public:
     Main() {
-        Solution mySol = new Solution("");
-        mySol.printFunc()
+        Solution sol = new Solution("");
+        sol.printFunc();
     }
 };
