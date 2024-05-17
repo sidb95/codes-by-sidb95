@@ -6,7 +6,7 @@ sidb95
 */
 
 #include<iostream>
-#include "Solution.h"
+#include "./core/Solution.h"
 #include "helloWorld.h"
 
 using namespace std;
