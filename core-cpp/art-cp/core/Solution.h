@@ -6,13 +6,15 @@ sidb95
 */
 
 class Solution {
-private:
+protected:
     bool retProp;
+
+    void print(string str) {
+        cout << str << endl;
+        return;
+    }
 public:
     Solution() {
         retProp = false;
-    }
-    void print(string str) {
-        cout << str << endl;
     }
 };
