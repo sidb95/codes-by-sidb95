@@ -15,7 +15,7 @@ public:
         str = "Hello World!"
     }
     printFunc() {
-        cout << str << endl;
+        print(str);
         return;
     }
 }
