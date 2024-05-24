@@ -14,7 +14,7 @@ public:
     helloWorld() {
         str = "Hello World!"
     }
-    printFunc() {
+    void printFunc() {
         print(str);
         return;
     }
