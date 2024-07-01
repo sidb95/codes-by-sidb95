@@ -1,12 +1,13 @@
 import random
 
-def print:
+class Print:
   def __init__():
     self.FLAG = True
 
-  def printFunc(str1: str):
-    print(str1)
-    return
+  def printFunc(str1: str) -> None:
+    if (self.FLAG):
+      print(str1)
+    return None
 
 def __main__():
   P = print()
