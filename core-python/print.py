@@ -1,5 +1,3 @@
-import random
-
 class Print:
   def __init__():
     self.FLAG = True
