@@ -1,8 +1,6 @@
 class Print:
-  def __init__():
-    self.FLAG = True
+  def __init__(self):
+    pass
 
-  def printFunc(str1: str) -> None:
-    if (self.FLAG):
-      print(str1)
-    return None
+  def printFunc(self, str1: str):
+    print(str1)
