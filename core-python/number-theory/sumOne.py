@@ -22,6 +22,8 @@ class Solution:
     pass
 
   def sum(self, a: str, b: str) -> str:
+    a = int(a)
+    b = int(b)
     A = add.Add()
     sumA = A.sumTwoNums(a, b)
     return sumA
