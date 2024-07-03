@@ -1,4 +1,2 @@
-from print import Print
-
-def addTwoNums:
+def printString(s: str) -> int:
   pass
