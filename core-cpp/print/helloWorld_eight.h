@@ -2,7 +2,7 @@
 helloWorld6.h
 sidb95
 bhatoresiddharth@gmail.com
-04 July 2024
+04, 09 July 2024
 */
 
 #include "print.h"
