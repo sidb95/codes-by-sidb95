@@ -1,6 +1,7 @@
 # 10 June 2025
 # sidb95
 # selection sort
+# 2.2-2
 
 def myFunc(A, n):
     minVal = 10 ** 10

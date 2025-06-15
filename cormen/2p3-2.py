@@ -1,5 +1,6 @@
 # 11 June 2025
 # sidb95
+# 2.3-2
 
 def merge(A, p, q, r):
     if (p == r):
