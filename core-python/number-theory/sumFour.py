@@ -10,7 +10,7 @@ class Solution:
     pass
 
   def sumFour(self, a, b):
-    answer = 0;
+    answer = 0
     for i in range(0, a + b):
       answer += 1
     return answer
