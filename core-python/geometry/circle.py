@@ -4,8 +4,9 @@
 
 
 import math
+from shape import Shape
 
-class Circle:
+class Circle(Shape):
     def __init__(self, r):
         self.r = r
 
